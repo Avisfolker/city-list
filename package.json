@@ -1,0 +1,24 @@
+{
+  "name": "city-list",
+  "version": "1.0.0",
+  "description": "list conponent",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avisfolker/city-list.git"
+  },
+  "author": "Andrey Andreev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avisfolker/city-list/issues"
+  },
+  "homepage": "https://github.com/Avisfolker/city-list#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
+}
