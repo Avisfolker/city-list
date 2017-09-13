@@ -16,16 +16,15 @@
 
 <!-- ControllerAs syntax -->
 <body ng-controller="MainCtrl" slider>
-
+  <h1>Города России</h1>
   <div class="city-list">
-    <label>Выберите цвет:</label>
+    <label>Выберите цвет текста:</label>
     <select ng-model="textColor">
       <option value="red">red</option>
       <option value="black">black</option>
       <option value="blue">blue</option>
     </select>
     <form name="city-list">
-      <br>
       <br>
       <label>Название города:</label>
       <input placeholder="Москва" type="texte" ng-model="name" ng-change="searchCity()">

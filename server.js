@@ -41,7 +41,6 @@ apiRoutes.post('/searchCity', (req, res) => {
     , (error, response, body) => {
     if (!error && response.statusCode === 200) {
       let info = JSON.parse(body);
-      console.dir(info);
       res.send(info);
     }
     else {

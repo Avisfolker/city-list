@@ -6,7 +6,6 @@ app.controller('MainCtrl', function($scope, $http) {
         }).then(function (data) {
           if (data.status === 200) {
             $scope.citys = data.data.result;
-            console.log(data);
           }
           else {
             console.log('Error: '+ data.msg);
